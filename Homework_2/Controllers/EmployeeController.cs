@@ -25,10 +25,17 @@ namespace Homework_2.Controllers
 
         [AllowAnonymous]
         // GET: api/Employee/5
-        public Employee Get(int id)
+        public IHttpActionResult Get(int id)
         {
-            var emp = empRep.GetEmployee(id);
-            return emp;
+            try
+            {
+                var emp = empRep.GetEmployee(id);
+                return Ok<Employee>(emp);
+            }
+            catch
+            {
+                return NotFound();
+            }
         }
 
         [AllowAnonymous]

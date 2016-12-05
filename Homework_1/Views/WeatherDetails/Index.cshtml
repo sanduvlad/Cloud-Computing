@@ -1,0 +1,16 @@
+﻿@model Homework_1.Models.WeatherModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<div style="width:100px; height:40px;">
+    <p style="float:left; margin-right:10px;">@Model.City</p>
+    <div style="width:100px;">
+        <div style="font-size:40px; float:left">@Model.Degrees</div>
+        <div style="font-size:12px">&#8451</div>
+    </div>
+</div>
+<p>@(DateTime.Today.DayOfWeek + " " + DateTime.Now.Hour + ":" + DateTime.Now.Minute)</p>
+<img src="@Model.PhotoUrl" />
