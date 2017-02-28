@@ -10,6 +10,7 @@ namespace Homework_2.BussinessLogic
     public class EmployeeRepository
     {
         public static EmployeeRepository _instance;
+
         private EmployeeContext empContext = new EmployeeContext();
         public static EmployeeRepository Instance
         {

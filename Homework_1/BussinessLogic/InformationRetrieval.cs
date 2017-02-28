@@ -98,7 +98,7 @@ namespace Homework_1.BussinessLogic
         public void GetPhoto()
         {
             string json = string.Empty;
-            string key = "041e0e51ba0f4ceb44a8978ab93f3f04";
+            string key = "818e3bdfbcfb8c845cd4a7cd280187c4";
             string url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" + key + "&tags=" + "clouds" + "&format=json";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);

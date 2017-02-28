@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3c968b04-008d-4415-93b9-3642bb4542c7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7977/TestPrimeNumber.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TestPrimeNumber.xsd" MetadataType="Schema" ID="36f0d520-6d36-46ff-840c-7fcfb86a8af6" SourceId="1" SourceUrl="http://localhost:7977/TestPrimeNumber.svc?xsd=xsd0" />
+    <MetadataFile FileName="TestPrimeNumber.disco" MetadataType="Disco" ID="34d857db-0d3c-47a4-9f63-6f2d30cbc9ed" SourceId="1" SourceUrl="http://localhost:7977/TestPrimeNumber.svc?disco" />
+    <MetadataFile FileName="TestPrimeNumber.wsdl" MetadataType="Wsdl" ID="c586730e-3dff-4994-9bb2-370c83e42731" SourceId="1" SourceUrl="http://localhost:7977/TestPrimeNumber.svc?wsdl" />
+    <MetadataFile FileName="TestPrimeNumber1.xsd" MetadataType="Schema" ID="02e9aad7-05dd-4eb6-9508-32bf1890cac2" SourceId="1" SourceUrl="http://localhost:7977/TestPrimeNumber.svc?xsd=xsd2" />
+    <MetadataFile FileName="TestPrimeNumber2.xsd" MetadataType="Schema" ID="8e5b11fd-a661-47f6-a1cb-5b40b307d997" SourceId="1" SourceUrl="http://localhost:7977/TestPrimeNumber.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

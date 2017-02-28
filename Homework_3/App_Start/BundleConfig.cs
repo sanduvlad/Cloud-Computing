@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Homework_3
+namespace HomeWork_3
 {
     public class BundleConfig
     {

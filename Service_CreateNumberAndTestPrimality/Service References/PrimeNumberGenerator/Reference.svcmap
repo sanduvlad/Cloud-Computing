@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7a3122a6-13f2-434e-ba38-1e49eb914d66" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7816/PrimeNumberGenerator.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PrimeNumberGenerator.xsd" MetadataType="Schema" ID="42b93c37-f4ca-4eab-be8a-eac5e0c44f81" SourceId="1" SourceUrl="http://localhost:7816/PrimeNumberGenerator.svc?xsd=xsd1" />
+    <MetadataFile FileName="PrimeNumberGenerator.disco" MetadataType="Disco" ID="87694879-2db8-46b1-9d04-3d5a0a82cf67" SourceId="1" SourceUrl="http://localhost:7816/PrimeNumberGenerator.svc?disco" />
+    <MetadataFile FileName="PrimeNumberGenerator1.xsd" MetadataType="Schema" ID="8e3cb88d-4f08-45af-8344-fd0a893803d5" SourceId="1" SourceUrl="http://localhost:7816/PrimeNumberGenerator.svc?xsd=xsd0" />
+    <MetadataFile FileName="PrimeNumberGenerator.wsdl" MetadataType="Wsdl" ID="808a346d-cfc0-43c5-baec-8624016f7c03" SourceId="1" SourceUrl="http://localhost:7816/PrimeNumberGenerator.svc?wsdl" />
+    <MetadataFile FileName="PrimeNumberGenerator2.xsd" MetadataType="Schema" ID="a08fa907-ee00-443c-8559-2eb5d2d751db" SourceId="1" SourceUrl="http://localhost:7816/PrimeNumberGenerator.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

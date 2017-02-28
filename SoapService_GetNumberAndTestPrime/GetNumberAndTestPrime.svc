@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SoapService_GetNumberAndTestPrime.Service1" CodeBehind="GetNumberAndTestPrime.svc.cs" %>

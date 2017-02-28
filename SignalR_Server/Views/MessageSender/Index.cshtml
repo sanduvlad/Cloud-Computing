@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<head>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.1.2.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.1.2.min.js"></script>
+    <script src="http://vlad-pc.code40.local/chat_server/signalr/hubs"></script>
+    <script src="~/SignalServer/HttpClient.js"></script>
+</head>
+
+
+<p id="length"></p>
+
+
+
+<div>
+    <input type="text" id="messageTextBox" placeholder="Enter your message..." />
+    <input type="button" value="Send!" onclick="SendMessage()" />
+</div>
+
+<div style="width:300px; height:500px;overflow:auto;margin-top:10px;"  id="messagesBox">
+
+</div>
+

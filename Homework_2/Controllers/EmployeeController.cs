@@ -10,12 +10,43 @@ using System.Web.Http.Description;
 
 namespace Homework_2.Controllers
 {
+    public interface IRepository
+    {
+        void store();
+    }
+
+    public class RepoImp : IRepository
+    {
+        void IRepository.store()
+        {
+            
+        }
+    }
     //[Authorize]
     public class EmployeeController : ApiController
     {
         private EmployeeRepository empRep = EmployeeRepository.Instance;
-        
+        private IRepository _repo;
+
+        public EmployeeController()
+        {
+
+        }
+
+        public EmployeeController(IRepository repo)
+        {
+            _repo = repo;
+        }
+
+
+        [Route("swagger/v1")]
+        [Route("employee")]
         [AllowAnonymous]
+
+        // route = "swagger / v1 () { return 
+
+
+
         // GET: api/Employee
         public List<Employee> Get()
         {
