@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_1", "Homework_1\Ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_2", "Homework_2\Homework_2.csproj", "{BEB8600A-6F0A-4E0C-A502-1AFB392F7891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_3", "HomeWork_3\HomeWork_3.csproj", "{84450CB3-04B8-40FE-ACBA-439DDD7EDCD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_3(not working)", "HomeWork_3\HomeWork_3(not working).csproj", "{84450CB3-04B8-40FE-ACBA-439DDD7EDCD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR", "SignalR\SignalR.csproj", "{3D7A0568-D257-406C-A1EA-E65D3BC7F8BF}"
 EndProject

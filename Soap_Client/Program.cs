@@ -11,6 +11,7 @@ namespace Soap_Client
         static void Main(string[] args)
         {
             CreateAndTestPrimeNumber.CreateAndTestPrimeNumberClient catpnc = new CreateAndTestPrimeNumber.CreateAndTestPrimeNumberClient();
+
             int i = 0;
             while((i++) < 100)
             Console.WriteLine(catpnc.CreateAndTest());
